@@ -76,8 +76,9 @@ const Form = () => {
 
   return (
     <div className="form-wrapper">
-      <h1 className="form-title">Registration Form</h1>
+      
       <div className="form-container">
+       <h1 className="form-title">Registration Form</h1>
         <form onSubmit={handleSubmit} className="form">
           <input
             type="text"
@@ -102,7 +103,7 @@ const Form = () => {
             name="contact"
             value={data.contact}
             onChange={handleChange}
-            placeholder="Contact Number"
+            placeholder="Contact"
             className="form-input"
           />
           <br />
