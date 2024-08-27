@@ -102,7 +102,7 @@ const Form = () => {
             name="contact"
             value={data.contact}
             onChange={handleChange}
-            placeholder="Contact"
+            placeholder="Contact Number"
             className="form-input"
           />
           <br />
